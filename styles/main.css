@@ -1,0 +1,48 @@
+.main {
+  padding: 0 15% 0 15%;
+}
+
+.main .head {
+  width: 100%;
+  height: 100px;
+  /* background-color: red; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head .logo {
+  width: 200px;
+  height: 100%;
+  /* background-color: yellow; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head .logo img {
+  width: 100%;
+  height: 50%;
+}
+.main .actionBox {
+  width: 200px;
+  height: 100%;
+  /* background-color: blue; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .actionBox p {
+  color: rgba(0, 0, 0, 0.405);
+  font-size: 20px;
+  font-weight: 100;
+}
+.main .actionBox i:hover {
+  cursor: pointer;
+}
+.main .actionBox p:hover {
+  cursor: pointer;
+  color: black;
+}
