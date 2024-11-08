@@ -2,5 +2,25 @@
   width: 100%;
   height: 70px;
   background-color: #d3d3d32f;
-  border: 0.1px solid #8080801f;
+  border: 0.1 px solid #8080801f;
+  display: flex;
+}
+
+.menu-b1 {
+  width: 20%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.352);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-b1 img {
+  width: 50px;
+  height: 25px;
+  transition: 0.5s;
+}
+.menu-b1 a:hover img {
+  width: 52px;
+  height: 27px;
+  transition: 0.5s;
 }
