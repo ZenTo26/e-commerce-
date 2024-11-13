@@ -6,6 +6,18 @@
     overflow: hidden;
 }
 
+.scroll-container {
+    display: flex;
+    gap: 1rem; /* Optional: Add space between product cards */
+    overflow-x: auto;
+    padding-bottom: 1rem; /* Space for scrollbar */
+  }
+  
+  .scroll-container .col-lg-3 {
+    min-width: 250px; /* Adjust card width as needed */
+    flex: 0 0 auto;
+  }
+  
 .product-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
