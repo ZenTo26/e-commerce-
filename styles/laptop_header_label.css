@@ -1,0 +1,9 @@
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333; 
+  margin-bottom: 1rem; 
+  text-align: left;
+  border-bottom: 2px solid #d3d3d32f; 
+  padding-bottom: 0.5rem; 
+}
