@@ -1,5 +1,5 @@
 .header-title {
-<<<<<<< HEAD
+  width: 100%;
   font-size: 2rem;
   font-weight: bold;
   color: #333; 
@@ -8,13 +8,3 @@
   border-bottom: 2px solid #d3d3d32f; 
   padding-bottom: 0.5rem; 
 }
-=======
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333; /* Adjust color to your preference */
-    margin-bottom: 1rem; /* Adds space below the title */
-    text-align: left;
-    border-bottom: 2px solid #d3d3d32f; /* Optional: adds an underline */
-    padding-bottom: 0.5rem; /* Adds padding between text and underline */
-  }
->>>>>>> 852c9c64dd9594b8aced17c84a20ebd1b55ec5ba
