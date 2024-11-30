@@ -1,0 +1,69 @@
+
+.a1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.a1-left{
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.a1-left p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.a1-right{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.a1-right img{
+    width: auto;
+    height: 100%;
+}
+
+.a2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.a2-left{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a2-left img{
+    width: auto;
+    height: 100%;
+}
+.a2-right{
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    padding-left: 30px;
+}
+.a2-right ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 30px;
+  }
+
+  .a2-right ul li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+    line-height: 1.5em;
+}
