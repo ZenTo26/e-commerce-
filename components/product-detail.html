@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
-      href="./Assets/url logo.png"
+      href="../Assets/url logo.png"
       sizes="32x32"
       type="image/png"
     />
@@ -22,11 +22,13 @@
 
     <!-- css link -->
 
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/menu.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/modal.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
+    <link rel="stylesheet" href="../styles/laptop.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/laptop_header_label.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
 
     <!-- bootstrap -->
 
@@ -39,20 +41,21 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <title>Home</title>
+    <title>LAPTOP</title>
   </head>
-
   <body>
     <!-- js link -->
 
-    <script src="js/modal.js"></script>
+    <script src="../js/modal.js"></script>
+
+    
     
     <!-- navbar -->
 
     <nav class="navbox">
       <div class="navbar">
         <ul>
-          <li><a href="components/aboutUs.html">About Us</a></li>
+          <li><a href="../components/aboutUs.html">About Us</a></li>
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <li><a href="#">Contact</a></li>
         </ul>
@@ -71,7 +74,7 @@
       <!-- head -->
       <div class="head">
         <div class="logo">
-          <img src="./Assets/x-tronic.png" alt="" />
+          <img src="../Assets/x-tronic.png" alt="" />
         </div>
         <div class="actionBox">
           <i class="fa-solid fa-heart"></i>
@@ -80,8 +83,8 @@
           <p id="signInBtn" style="cursor: pointer">| Sign in</p>
         </div>
       </div>
-<div class="modal-overlay" id="modalOverlay">
-  <div class="modal-container">
+    <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-container">
     <button class="close-btn">&times;</button>
     <div class="form-header">
       <h2>Sign In</h2>
@@ -105,42 +108,46 @@
         <a href="#">Create Account</a>
       </div>
     </form>
-  </div>
-</div>
-
+    </div>
+    </div>
+    
       <!-- head -->
 
-      <!-- menu -->
+      <!-- munu -->
       <div class="menu">
         <div class="menu-b1">
-          <a href="./components/laptop.html"
-            ><img src="./Assets/laptop icon.png" alt=""
+          <a href="laptop.html"
+            ><img src="../Assets/laptop icon.png" alt=""
           /></a>
         </div>
         <div class="menu-b1">
-          <a href="./components/keybord.html"
-            ><img src="./Assets/keyboard icon.png" alt=""
+          <a href="keybord.html"
+            ><img src="../Assets/keyboard icon.png" alt=""
           /></a>
         </div>
         <div class="menu-b1">
-          <a href="./components/headset.html"
-            ><img src="./Assets/headset icon.png" alt=""
+          <a href="headset.html"
+            ><img src="../Assets/headset icon.png" alt=""
           /></a>
         </div>
         <div class="menu-b1">
-          <a href="components/monitor.html"
-            ><img src="./Assets/monitor icon.png" alt=""
+          <a href="monitor.html"
+            ><img src="../Assets/monitor icon.png" alt=""
           /></a>
         </div>
         <div class="menu-b1">
-          <a href="./components/pc.html"
-            ><img src="./Assets/pc icon.png" alt=""
-          /></a>
+          <a href="pc.html"><img src="../Assets/pc icon.png" alt="" /></a>
         </div>
       </div>
       <!-- menu -->
 
-      <!-- body -->
+      <!-- body -->=
+      <div class="container py-5">
+        <h1 class="mb-4">Product Detail</h1>
+        <div id="product-detail-container">
+          <!-- Product detail will be dynamically inserted here -->
+        </div>
+      </div>
 
       <!-- body -->
     </div>
@@ -152,7 +159,7 @@
       <div class="box">
         <div class="f1">
           <div class="logo">
-            <img src="./Assets/x-tronic.png" alt="" />
+            <img src="../Assets/x-tronic.png" alt="" />
           </div>
           <br />
           <p style="color: #0000006c">Have Question? Call Us.</p>
@@ -164,7 +171,7 @@
         <div class="f2">
           <h3>Address</h3>
           <br />
-          <p>ផ្ទះលេខ 252lab, មហាវិថី កម្ពុជាក្រោម (១២៨), ភ្នំពេញ</p>
+          <p>ផ្ទះលេខ 252lab , មហាវិថី កម្ពុជាក្រោម (១២៨), ភ្នំពេញ</p>
           <br />
           <h3>Email:</h3>
           <p>xtronic@gmail.com</p>
@@ -172,17 +179,18 @@
         <div class="f3">
           <h3>Site Map</h3>
           <br />
-          <p><a href="./components/laptop.html">LAPTOP</a></p>
-          <p><a href="./components/keybord.html">KEYBOARD</a></p>
-          <p><a href="./components/headset.html">HEADSET</a></p>
-          <p><a href="./components/monitor.html">MONITOR</a></p>
-          <p><a href="./components/pc.html">PC BUILD</a></p>
+          <p><a href="laptop.html">LAPTOP</a></p>
+          <p><a href="keybord.html">KEYBOAD</a></p>
+          <p><a href="headset.html">HEADSET</a></p>
+          <p><a href="monitor.html">MONITOR</a></p>
+          <p><a href="pc.html">PC BUILD</a></p>
           <br />
         </div>
       </div>
     </footer>
 
     <!-- footer -->
-    
+    <script src="../js/laptop.js"></script>
+    <script src="../js/card.js"></script>
   </body>
 </html>
