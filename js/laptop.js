@@ -127,6 +127,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const product = JSON.parse(productData);
 
     const productDetailHTML = `
+      <h1 class="mb-4">${product.name}</h1>
         <div class="card">
           <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}">
           <div class="card-body">

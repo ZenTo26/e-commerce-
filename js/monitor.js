@@ -1,4 +1,4 @@
-const razerProducts = [
+const asusMonitor = [
     {
       name: "Ultra Laptop",
       description: "Powerful laptop for professionals",
@@ -29,7 +29,7 @@ const razerProducts = [
       }
   ];
   
-  const logitechProducts = [
+  const dellMonitor = [
     {
       name: "Wireless Keyboard",
       description: "Comfortable wireless keyboard",
@@ -91,7 +91,7 @@ const razerProducts = [
     productCards.forEach(card => {
       card.addEventListener('click', () => {
         const productId = card.getAttribute('data-product-id');
-        const product = [...razerProducts, ...logitechProducts].find(p => p.productId === productId);
+        const product = [...asusMonitor, ...dellMonitor].find(p => p.productId === productId);
   
         // Save product data to localStorage
         localStorage.setItem('selectedProduct', JSON.stringify(product));
@@ -126,8 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   
-  // Call the function to render Razer and Logitech products
-  renderProducts(razerProducts, 'razer-products');
-  renderProducts(logitechProducts, 'logitech-products');
-  renderProducts(Alienware, 'Alienware-products');
+  renderProducts(asusMonitor, 'asus-monitor');
+  renderProducts(dellMonitor, 'dell-monitor');
   

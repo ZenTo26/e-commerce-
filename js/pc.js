@@ -1,4 +1,4 @@
-const razerProducts = [
+const dellProducts = [
     {
       name: "Ultra Laptop",
       description: "Powerful laptop for professionals",
@@ -29,7 +29,7 @@ const razerProducts = [
       }
   ];
   
-  const logitechProducts = [
+  const asusProducts = [
     {
       name: "Wireless Keyboard",
       description: "Comfortable wireless keyboard",
@@ -45,22 +45,7 @@ const razerProducts = [
       productId: "bluetooth-headset"
     }
   ];
-  const Alienware = [
-    {
-      name: "Alienware Keyboard",
-      description: "Comfortable wireless keyboard",
-      price: "$79.99",
-      imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-      productId: "wireless-keyboard"
-    },
-    {
-      name: "Alienware Headset",
-      description: "Noise-cancelling Bluetooth headset",
-      price: "$99.99",
-      imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-      productId: "bluetooth-headset"
-    }
-  ];
+
   
   // Function to render products
   function renderProducts(products, containerId) {
@@ -91,7 +76,7 @@ const razerProducts = [
     productCards.forEach(card => {
       card.addEventListener('click', () => {
         const productId = card.getAttribute('data-product-id');
-        const product = [...razerProducts, ...logitechProducts].find(p => p.productId === productId);
+        const product = [...dellProducts, ...asusProducts].find(p => p.productId === productId);
   
         // Save product data to localStorage
         localStorage.setItem('selectedProduct', JSON.stringify(product));
@@ -127,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   
   // Call the function to render Razer and Logitech products
-  renderProducts(razerProducts, 'razer-products');
-  renderProducts(logitechProducts, 'logitech-products');
-  renderProducts(Alienware, 'Alienware-products');
+  renderProducts(dellProducts, 'dell-PC');
+  renderProducts(asusProducts, 'Asus-PC');
+
   
