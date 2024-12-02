@@ -43,38 +43,43 @@ const asusProducts = [
 
 const alienwareProducts = [
   {
-    name: "Wireless Keyboard",
-    description: "Comfortable wireless keyboard",
-    price: "$79.99",
-    imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-    productId: "wireless-keyboard",
+    name: "Alienware X16 R2 Gaming Laptop",
+    description:
+      "16-inch QHD+ 240Hz 3ms Display, Intel Core Ultra 7-155H, 16GB LPDDR5X RAM, 1TB SSD, NVIDIA GeForce RTX 4070 8GB GDDR6, Windows 11 Home, Onsite Service - Lunar Silver",
+    price: "$2,299",
+    imageUrl: "../Assets/AlienwarePIC/A1.jpg",
+    productId: "alienware1",
   },
   {
-    name: "Bluetooth Headset",
-    description: "Noise-cancelling Bluetooth headset",
-    price: "$99.99",
-    imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-    productId: "bluetooth-headset",
+    name: "Alienware M16 R2 Gaming Laptop",
+    description:
+      " Intel Ultra 7-155H, 64 GB DDR5 Ram, 2 TB PCle SSD, 16-inch QHD+ (2560x1600), Nvidia Geforce RTX 4070, W11 Home, Black",
+    price: "$2,799",
+    imageUrl: "../Assets/AlienwarePIC/A2.jpg",
+    productId: "alienware2",
   },
   {
-    name: "Gaming Mouse",
-    description: "High precision gaming mouse",
-    price: "$59.99",
-    imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-    productId: "gaming-mouse",
+    name: "Alienware x14 R2 Gaming Laptop",
+    description:
+      "13th Generation Intel® Core™ i7-13620H (24 MB cache, 10 cores, up to 4.90 GHz Turbo)",
+    price: "$2,499",
+    imageUrl: "../Assets/AlienwarePIC/A4.jpg",
+    productId: "alienware4",
   },
   {
-    name: "Gaming Mouse",
-    description: "High precision gaming mouse",
-    price: "$59.99",
-    imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
-    productId: "gaming-mouse",
+    name: "Alienware m15 Gaming Laptop",
+    description:
+      "13th Generation Intel® Core™ i7-13620H (24 MB cache, 10 cores, up to 4.90 GHz Turbo)",
+    price: "$2299",
+    imageUrl: "../Assets/AlienwarePIC/A9.jpg",
+    productId: "alienware9",
   },
   {
-    name: "Gaming Mouse",
-    description: "High precision gaming mouse",
-    price: "$59.99",
-    imageUrl: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2",
+    name: "Alienware M17R5 Gaming Laptop",
+    description:
+      "17.3-inch FHD 480Hz Display, AMD Ryzen 9-6900HX, 32GB DDR5 RAM, 1TB SSD, NVIDIA GeForce RTX 3080 GDDR6, Windows 11 Home, 1 Year Support - Dark Side of the Moon, Black",
+    price: "$1299.99",
+    imageUrl: "../Assets/AlienwarePIC/A8.jpg",
     productId: "gaming-mouse",
   },
 ];
