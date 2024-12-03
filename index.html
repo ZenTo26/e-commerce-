@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="./styles/menu.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/modal.css" />
+    <link rel="stylesheet" href="./styles/laptop.css" />
+    <link rel="stylesheet" href="./styles/laptop_header_label.css" />
 
     <!-- bootstrap -->
 
@@ -46,7 +48,7 @@
     <!-- js link -->
 
     <script src="js/modal.js"></script>
-    
+
     <!-- navbar -->
 
     <nav class="navbox">
@@ -71,7 +73,9 @@
       <!-- head -->
       <div class="head">
         <div class="logo">
-          <img src="./Assets/x-tronic.png" alt="" />
+          <a href="../index.html">
+            <img src="../Assets/x-tronic.png" alt="" />
+          </a>
         </div>
         <div class="actionBox">
           <i class="fa-solid fa-heart"></i>
@@ -80,33 +84,45 @@
           <p id="signInBtn" style="cursor: pointer">| Sign in</p>
         </div>
       </div>
-<div class="modal-overlay" id="modalOverlay">
-  <div class="modal-container">
-    <button class="close-btn">&times;</button>
-    <div class="form-header">
-      <h2>Sign In</h2>
-    </div>
-    <form>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-container">
+          <button class="close-btn">&times;</button>
+          <div class="form-header">
+            <h2>Sign In</h2>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+            <div class="remember-me">
+              <input type="checkbox" id="remember" name="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+            <button type="submit" class="submit-btn">Sign In</button>
+            <div class="links">
+              <a href="#">Forgot Password?</a>
+              <a href="#">Create Account</a>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-      </div>
-      <div class="remember-me">
-        <input type="checkbox" id="remember" name="remember">
-        <label for="remember">Remember me</label>
-      </div>
-      <button type="submit" class="submit-btn">Sign In</button>
-      <div class="links">
-        <a href="#">Forgot Password?</a>
-        <a href="#">Create Account</a>
-      </div>
-    </form>
-  </div>
-</div>
 
       <!-- head -->
 
@@ -141,7 +157,26 @@
       <!-- menu -->
 
       <!-- body -->
-
+      <div class="container py-5">
+        <h2 class="header-title" role="heading" aria-level="1">ASUS</h2>
+        <div
+          id="asus-products"
+          class="scroll-container mb-5"
+          role="region"
+          aria-label="ASUS Products"
+        ></div>
+        <h2 class="header-title mt-5" role="heading" aria-level="1">
+          RAZER
+        </h2>
+        <div
+          id="razer-products"
+          class="scroll-container mb-5"
+          role="region"
+          aria-label="RAZER Products"
+        ></div>
+        
+        <!-- Product Detail Section -->
+      </div>
       <!-- body -->
     </div>
     <!-- main -->
@@ -183,6 +218,9 @@
     </footer>
 
     <!-- footer -->
-    
+
+    <script src="./js/laptop.js"></script>
+    <script src="./js/keyboard.js"></script>
+    <script src="./js/headset.js"></script>
   </body>
 </html>
