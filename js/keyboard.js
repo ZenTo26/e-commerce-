@@ -136,13 +136,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const product = JSON.parse(productData);
 
     const productDetailHTML = `
-        <div class="card">
-          <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}">
-          <div class="card-body">
-            <h3 class="card-title">${product.name}</h3>
-            <p class="card-text">${product.description}</p>
-            <h4 class="price">${product.price}</h4>
-            <button class="btn btn-primary">Add to Cart</button>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 h-100">
+          <div class="card h-100 product-card" tabindex="0" data-product-id="${product.productId}" style="cursor: pointer;">
+            <img src="${product.imageUrl}" class="card-img-top img-fluid" alt="${product.name}" />
+            <div class="card-body">
+              <h5 class="card-title">${product.name}</h5>
+              <p class="card-text">${product.description}</p>
+              <p class="price">${product.price}</p>
+              <button class="btn btn-danger w-100" aria-label="Add ${product.name} to cart">
+                Add to Cart
+              </button>
+            </div>
           </div>
         </div>
       `;

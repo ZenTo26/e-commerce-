@@ -2,9 +2,29 @@
   width: 100%;
   font-size: 2rem;
   font-weight: bold;
-  color: #333; 
-  margin-bottom: 1rem; 
+  color: #333;
+  margin-bottom: 1rem;
   text-align: left;
-  border-bottom: 2px solid #d3d3d32f; 
-  padding-bottom: 0.5rem; 
+  border-bottom: 2px solid #d3d3d32f;
+  padding-bottom: 0.5rem;
+}
+
+/*mobile phone*/
+@media (max-width: 557px) {
+  .header-title {
+    font-size: 16px;
+  }
+  .scroll-container {
+    width: 90%;
+    height: 150px;
+  }
+}
+/*ipad*/
+@media (min-width: 558px) and (max-width: 991px) {
+}
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/*laptop*/
+@media (min-width: 1200px) {
 }

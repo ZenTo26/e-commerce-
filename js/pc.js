@@ -67,9 +67,9 @@ function renderProducts(products, containerId) {
 
   products.forEach((product) => {
     const productCard = `
-        <div class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-4 h-100">
           <div class="card h-100 product-card" tabindex="0" data-product-id="${product.productId}" style="cursor: pointer;">
-            <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}" />
+            <img src="${product.imageUrl}" class="card-img-top img-fluid" alt="${product.name}" />
             <div class="card-body">
               <h5 class="card-title">${product.name}</h5>
               <p class="card-text">${product.description}</p>

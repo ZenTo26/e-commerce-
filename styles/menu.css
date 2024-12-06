@@ -24,3 +24,42 @@
   height: 27px;
   transition: 0.5s;
 }
+
+/*mobile phone*/
+@media (max-width: 557px) {
+  .menu {
+    width: 100%;
+    height: 50px;
+    background-color: #d3d3d32f;
+    border: 0.1 px solid #8080801f;
+    display: flex;
+  }
+
+  .menu-b1 {
+    width: 20%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-b1 img {
+    width: 30px;
+    height: 15px;
+    transition: 0.5s;
+  }
+  .menu-b1 a:hover img {
+    width: 33px;
+    height: 18px;
+    transition: 0.5s;
+  }
+}
+/*ipad*/
+@media (min-width: 558px) and (max-width: 991px) {
+}
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/*laptop*/
+@media (min-width: 1200px) {
+}
